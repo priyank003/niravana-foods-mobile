@@ -1,0 +1,30 @@
+.food__category-container {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+.food__category-div {
+  flex: 0 0 auto;
+  display: flex;
+  align-items: center;
+  border: 0.5px solid black;
+
+  border-radius: 7px;
+  padding: 5px;
+}
+.food__category-div:hover {
+  background-color: var(--color-red);
+  color: white;
+  border: none;
+}
+.food__category-div-icon {
+}
+.food__category-div-icon img {
+  width: 12px;
+
+  object-fit: contain;
+}
+.food__category-div p {
+  font-size: 0.8rem;
+  margin: 0;
+}

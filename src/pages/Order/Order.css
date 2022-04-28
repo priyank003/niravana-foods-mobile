@@ -1,0 +1,33 @@
+.app__order-container {
+  width: 100%;
+  padding-bottom: 4rem;
+  box-shadow: inset 0px -3px 30px rgba(255, 104, 56, 0.15);
+}
+.app__order-form {
+  padding: 10px;
+}
+.app__order-form-header {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 2px solid gray;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+}
+.app__order-form-header h2 {
+  font-size: 1rem;
+  margin: 0;
+  padding: 0;
+  font-weight: 600;
+}
+.app__order-form-header span {
+  font-size: 0.8rem;
+  color: gray;
+}
+.app__order-map {
+  width: 100%;
+}
+.app__order-map img {
+  width: 100%;
+}

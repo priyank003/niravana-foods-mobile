@@ -1,0 +1,73 @@
+@media (max-width: 1000px) {
+  .app__home-container {
+    box-shadow: inset 0px -3px 30px rgba(255, 104, 56, 0.15);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px 0;
+    width: 100%;
+    margin-bottom: 3rem;
+    white-space: nowrap;
+  }
+  .app__home-location-top-bar {
+    width: 95%;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .app__home-location-div {
+    display: flex;
+  }
+  .app__home-location-div p {
+    margin-left: 5px;
+    font-size: 0.9rem;
+    margin-bottom: 0;
+    padding: 0;
+  }
+  .app__home-food-category {
+    width: 95%;
+    margin-top: 20px;
+  }
+  .app__home-popular-food {
+    margin-top: 10px;
+    width: 95%;
+  }
+  .app__home-posts-header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .app__home-posts-header a {
+    font-size: 0.8rem;
+    font-weight: 500;
+  }
+  .app__home-posts-header h1 {
+    font-size: 1rem;
+  }
+
+  .app__home-popular-food-post {
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+  }
+  .app__home-popular-food-cards {
+    width: 90%;
+    margin-top: 30px;
+    display: flex;
+    overflow-y: hidden;
+    overflow-x: auto;
+    white-space: nowrap;
+    padding: 8px 3px;
+    -webkit-overflow-scrolling: touch;
+    border-radius: 10px;
+    margin-bottom: 20px;
+  }
+  .app__home-popular-food-cards::-webkit-scrollbar {
+    display: none;
+  }
+  .app__home-popular-restaurants {
+    width: 95%;
+  }
+}
