@@ -28,7 +28,7 @@ export default function Home() {
         <div className="app__home-popular-food-header app__home-posts-header">
           <h1>Popular food near you </h1>
 
-          <a>See All</a>
+          <a href="/">See All</a>
         </div>
         <div className="app__home-popular-food-post">
           <PopularFoodPost />
@@ -47,11 +47,12 @@ export default function Home() {
         <div className="app__home-popular-restaurants-header app__home-posts-header">
           <h1>Restaurants near you </h1>
 
-          <a>See All</a>
+          <a href="/">See All</a>
         </div>
         <div className="app__home-popular-restaurant-post">
           <PopularRestaurantPost />
           <PopularRestaurantPost />
+          {/* <PopularRestaurantPost /> */}
         </div>
       </div>
     </div>

@@ -10,9 +10,6 @@ import LocationOnIcon from "@mui/icons-material/LocationOn";
 import FavoriteBorderIcon from "@mui/icons-material/FavoriteBorder";
 import SearchIcon from "@mui/icons-material/Search";
 import ShoppingBagIcon from "@mui/icons-material/ShoppingBag";
-import RestoreIcon from "@mui/icons-material/Restore";
-import FavoriteIcon from "@mui/icons-material/Favorite";
-import ArchiveIcon from "@mui/icons-material/Archive";
 import Order from "./pages/Order/Order";
 import "bootstrap/dist/css/bootstrap.min.css";
 

@@ -12,7 +12,7 @@ export default function OffLocationBox() {
         </p>
       </div>
       <div className="offlocation__right flex-center">
-        <a href="#" className="grant__link flex-center">
+        <a href="/" className="grant__link flex-center">
           Grant
         </a>
       </div>

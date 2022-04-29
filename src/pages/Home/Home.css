@@ -6,10 +6,12 @@
     align-items: center;
     padding: 15px 0;
     width: 100%;
-    margin-bottom: 1rem;
+    height: 100vh;
+
     white-space: nowrap;
   }
   .app__home-location-top-bar {
+    margin-top: 1rem;
     width: 95%;
 
     display: flex;
@@ -33,7 +35,7 @@
     margin-top: 20px;
   }
   .app__home-popular-food {
-    margin-top: 10px;
+    margin-top: 40px;
     width: 95%;
   }
   .app__home-posts-header {
@@ -59,7 +61,7 @@
   }
   .app__home-popular-food-cards {
     width: 90%;
-    margin-top: 10px;
+    margin-top: 30px;
     display: flex;
     overflow-y: hidden;
     overflow-x: auto;
@@ -73,6 +75,7 @@
     display: none;
   }
   .app__home-popular-restaurants {
+    margin-top: 20px;
     width: 95%;
   }
 }
