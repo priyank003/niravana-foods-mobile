@@ -14,7 +14,9 @@ export default function Home() {
     <div className="app__home-container">
       <div className="app__home-location-top-bar">
         <div className="app__home-location-div">
-          <LocationOnIcon style={{ color: "#FF2951" }} />
+          <div className="app__home-location-icon">
+            <LocationOnIcon style={{ color: "#FF2951" }} />
+          </div>
           <p> Vikhroli West, Mumbai, Maharashtra</p>
         </div>
         <AccountCircleIcon fontSize="large" />
@@ -30,7 +32,7 @@ export default function Home() {
         </div>
         <div className="app__home-popular-food-post">
           <PopularFoodPost />
-          <PopularFoodPost />
+          {/* <PopularFoodPost /> */}
         </div>
       </div>
       <div className="app__home-popular-food-cards">

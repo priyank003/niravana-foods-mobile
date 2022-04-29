@@ -1,4 +1,6 @@
 .restaurant__post-container {
+  font-weight: 500;
+  background-color: white;
   display: flex;
   height: 100%;
   position: relative;
@@ -54,8 +56,6 @@
 }
 .restaurant__post-rating {
   display: flex;
-  align-items: center;
-  font-size: 0.8rem;
 }
 .restaurant__post-food-timing {
   font-size: 0.8rem;

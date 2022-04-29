@@ -1,6 +1,7 @@
 .food__card-container {
+  background-color: white;
   margin-right: 20px;
-  padding: 10px 0;
+  padding-bottom: 5px;
   width: 160px;
   position: relative;
   display: flex;
@@ -53,6 +54,7 @@
   margin-top: 20px;
   display: flex;
   justify-content: space-between;
+  align-items: flex-end;
   font-weight: 700;
   font-size: 0.8rem;
   width: 90%;
@@ -61,11 +63,15 @@
   display: flex;
   flex-direction: column;
   align-items: flex-start;
+  justify-content: space-between;
 }
 .food__card-details-left h2 {
   font-size: 0.8rem;
+  margin: 0;
+  padding: 0;
 }
-.food__card-details-price {
+.food__card-details-price span {
+  white-space: nowrap;
 }
 .food__card-details-price-old {
   text-decoration: line-through;
@@ -77,4 +83,5 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding-bottom: 3px;
 }

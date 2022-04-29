@@ -26,8 +26,8 @@ export default function PopularFoodCard() {
             <span className="food__card-details-price-new">₹ 133</span>
           </div>
         </div>
-        <div className="food__card-details-right">
-          <StarIcon style={{ color: "#FF2951" }} fontSize="small" />
+        <div className="food__card-details-right product__rating">
+          <StarIcon style={{ color: "#FF2951", fontSize: "0.8rem" }} />
           <span>4.3</span>
         </div>
       </div>

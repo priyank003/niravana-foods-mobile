@@ -21,10 +21,13 @@
   }
   .app__home-location-div p {
     margin-left: 5px;
-    font-size: 0.9rem;
+    font-size: 0.8rem;
     margin-bottom: 0;
     padding: 0;
+    display: flex;
+    align-items: center;
   }
+
   .app__home-food-category {
     width: 95%;
     margin-top: 20px;
@@ -42,9 +45,11 @@
   .app__home-posts-header a {
     font-size: 0.8rem;
     font-weight: 500;
+    align-self: flex-start;
   }
   .app__home-posts-header h1 {
     font-size: 1rem;
+    font-weight: 600;
   }
 
   .app__home-popular-food-post {
@@ -54,7 +59,7 @@
   }
   .app__home-popular-food-cards {
     width: 90%;
-    margin-top: 30px;
+    margin-top: 10px;
     display: flex;
     overflow-y: hidden;
     overflow-x: auto;

@@ -16,14 +16,20 @@ export default function PopularFoodPost() {
             <h2>Funky Tacos</h2>
             <p>Rajendra Place</p>
           </div>
-          <div className="popular-food-post-rating">
-            <StarIcon style={{ color: "#FF2951" }} fontSize="small" />
+          <div className="popular-food-post-rating flex-center">
+            <StarIcon
+              style={{ color: "#FF2951", fontSize: "0.8rem" }}
+              fontSize="small"
+            />
             <span>4.3</span>
           </div>
         </div>
         <div className="popular-food-post-right">
-          <FavoriteBorderIcon style={{ color: "#FF2951" }} />
-          <ArrowForwardIosIcon />
+          <FavoriteBorderIcon style={{ fontSize: "1rem" }} />
+          <ArrowForwardIosIcon
+            fontSize="small"
+            style={{ marginLeft: "10px", fontSize: "1rem" }}
+          />
         </div>
       </div>
     </React.Fragment>
