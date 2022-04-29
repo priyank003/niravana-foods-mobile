@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/niravana-foods-mobile/static/css/main.59b83156.css",
-    "main.js": "/niravana-foods-mobile/static/js/main.f6622e18.js",
+    "main.css": "/niravana-foods-mobile/static/css/main.48cf0d01.css",
+    "main.js": "/niravana-foods-mobile/static/js/main.f8c0770f.js",
     "static/js/787.b9d8468b.chunk.js": "/niravana-foods-mobile/static/js/787.b9d8468b.chunk.js",
     "static/media/map.png": "/niravana-foods-mobile/static/media/map.862f2e2021e022642bec.png",
     "static/media/pexels-roman-odintsov-4871111 3 (1).png": "/niravana-foods-mobile/static/media/pexels-roman-odintsov-4871111 3 (1).3550165da76c71ae9df8.png",
     "index.html": "/niravana-foods-mobile/index.html",
-    "main.59b83156.css.map": "/niravana-foods-mobile/static/css/main.59b83156.css.map",
-    "main.f6622e18.js.map": "/niravana-foods-mobile/static/js/main.f6622e18.js.map",
+    "main.48cf0d01.css.map": "/niravana-foods-mobile/static/css/main.48cf0d01.css.map",
+    "main.f8c0770f.js.map": "/niravana-foods-mobile/static/js/main.f8c0770f.js.map",
     "787.b9d8468b.chunk.js.map": "/niravana-foods-mobile/static/js/787.b9d8468b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.59b83156.css",
-    "static/js/main.f6622e18.js"
+    "static/css/main.48cf0d01.css",
+    "static/js/main.f8c0770f.js"
   ]
 }
